@@ -1,0 +1,13 @@
+package desafio_dio_banco;
+
+public class ContaCorrente extends Conta{
+	
+	private static final SEQUENCIAL = 0;
+	
+	public ContaCorrente() {
+		super.agencia = 1;
+		super.numero = SEQUENCIAL;
+	}
+	
+
+}

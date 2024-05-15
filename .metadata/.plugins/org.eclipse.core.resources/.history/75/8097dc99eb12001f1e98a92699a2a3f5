@@ -1,0 +1,12 @@
+package desafio_dio_banco;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		Conta cc = new ContaCorrente();
+		Conta cp = new ContaPoupanca();
+		
+		
+	}
+
+}

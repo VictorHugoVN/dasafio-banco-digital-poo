@@ -1,0 +1,64 @@
+package desafio_dio_banco;
+
+public abstract class Conta implements IConta{
+	
+	protected static final int AGENCIA_PADRAO = 1;
+	protected static int SEQUENCIAL = 1;
+	
+	protected int agencia;
+	protected int numero;
+	protected double saldo;
+	
+
+	
+	public Conta() {
+		this.agencia = this.AGENCIA_PADRAO;
+		this.numero = SEQUENCIAL++;
+	}
+	
+	@Override
+	public void sacar(double saldo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void depositar(double saldo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferir(double valor, Conta contaDestino) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+	
+	public int getAgencia() {
+		return this.agencia;
+	}
+	
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	
+	public int getNumero() {
+		return this.numero;
+	}
+	
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
+	public double getSaldo() {
+		return this.saldo;
+	}
+
+	
+
+
+}

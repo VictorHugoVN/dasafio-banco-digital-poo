@@ -1,0 +1,15 @@
+package desafio_dio_banco;
+
+public class ContaCorrente {
+	
+	private int agencia;
+	
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+	
+	public int getAgencia() {
+		return this.agencia;
+	}
+
+}
